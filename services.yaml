@@ -1,0 +1,71 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/services
+
+- Fireword:
+    - Jellyfin:
+        icon: jellyfin
+        href: http://watch.fireword.xyz
+        description: Watch your media
+        ping: http://watch.fireword.xyz
+        server: docker
+        container: jellyfin
+    - Sonarr:
+        icon: sonarr
+        href: http://sonarr.fireword.xyz
+        description: Manage your TV shows
+        ping: http://sonarr.fireword.xyz
+    - Radarr:
+        icon: radarr-light
+        href: http://radarr.fireword.xyz
+        ping: http://radarr.fireword.xyz
+        description: Manage your movies
+    - Bazarr:
+        icon: bazarr
+        href: http://bazarr.fireword.xyz
+        description: Manage your subtitles
+    - Readarr:
+        icon: readarr
+        href: http://readarr.fireword.xyz
+        description: Manage your ebooks
+    - Prowlarr:
+        icon: prowlarr
+        href: http://prowlarr.fireword.xyz
+        description: Manage your indexers
+    - qBittorrent:
+        icon: qbittorrent
+        href: http://torrent.fireword.xyz
+        description: Manage your torrents
+- Home:
+    - AdGuard Home:
+        icon: adguard-home
+        href: http://adguard.fireword.xyz
+        description: Block ads and trackers
+    - Portainer:
+        icon: portainer
+        href: http://portainer.fireword.xyz
+        description: Manage your containers
+    - Printer:
+        icon: printer
+        href: http://print.fireword.xyz
+        description: Manage your printer
+    - Scanner:
+        icon: mdi-scanner-#e8e8e8
+        href: http://scan.fireword.xyz
+        description: Scan your documents
+    - Wake on LAN:
+        icon: mdi-power-#e8e8e8
+        href: http://wol.fireword.xyz
+        description: Wake your devices
+    - Game Servers:
+        icon: pufferpanel
+        href: http://servers.fireword.xyz
+        description: Manage your game servers
+    - Traefik:
+        icon: https://dashboard.snapcraft.io/site_media/appmedia/2022/11/traefik.svg.png
+        href: http://proxy.fireword.xyz
+        description: Manage your reverse proxy
+    - Router:
+        icon: mdi-router-network-#e8e8e8
+        href: http://router.fireword.xyz
+        description: Manage your router
